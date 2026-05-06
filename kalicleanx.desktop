@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=KaliCleanX
+Comment=Safe, non-destructive system cleaner for Kali Linux
+Exec=pkexec /opt/kalicleanx/kalicleanx-gui.sh
+Icon=utilities-system-monitor
+Terminal=false
+Type=Application
+Categories=System;Utility;
+Keywords=clean;cache;temp;system;kali;
+StartupNotify=false
