@@ -1,0 +1,11 @@
+[Unit]
+Description=KaliCleanX Scheduled Auto-Cleaner
+Requires=kalicleanx.service
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target
